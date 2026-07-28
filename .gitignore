@@ -6,3 +6,12 @@ Fibo.hs
 fibo.scm
 Makefile.coq
 Makefile.coq.conf
+Makefile.coq*
+*.vo
+*.vok
+*.vos
+*.glob
+.*.aux
+*.cm*
+*.o
+*.a
