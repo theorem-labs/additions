@@ -1,8 +1,6 @@
 *.a
 *.cm*
 *.glob
-*.ml
-*.mli
 *.o
 *.vo
 *.vok
