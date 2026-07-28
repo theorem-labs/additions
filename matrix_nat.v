@@ -28,6 +28,7 @@
 
 (* original version using nat instead of Z                                  *)
 
+Require Import Compat.
 Require Import monoid.
 Require Import Arith.
 Require Import Compare_dec.

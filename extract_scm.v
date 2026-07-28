@@ -15,6 +15,7 @@
 
 
 
+Require Import Compat.
 Require Import Constants.
 Require Import generation.
 Require Import monoid.

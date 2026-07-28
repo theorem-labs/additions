@@ -29,8 +29,8 @@
 
 
 (* standard monoid *)
+Require Import Compat.
 Require Import monoid.
-Require Import Mult.
 
 Lemma standard : monoid nat.
 refine (mkmonoid nat 1 mult _ _ _); auto with arith.

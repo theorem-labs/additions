@@ -1,5 +1,6 @@
 -R . Additions
 
+Compat.v
 while.v
 two_power.v
 trivial.v

@@ -31,14 +31,12 @@
   code for Call_M, Call_C and Call_K calls (see the module "spec")
 *)
 
+Require Import Compat.
 Require Import Constants.
 Require Import monoid.
 Require Import spec.
 Require Import machine.
 Require Import Wf_compl.
-Require Import Plus.
-Require Import Mult.
-Require Import Lt.
 Require Import Mult_compl.
 Require Import euclid.
 Require Import two_power.

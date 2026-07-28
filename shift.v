@@ -31,6 +31,7 @@
   about these operations.
 *)
 
+Require Import Compat.
 Require Import Arith.
 Require Import Peano_dec.
 Require Import Constants.
@@ -62,7 +63,7 @@ Lemma Unshift :
 Proof.
 refine
  (fun n => match eucl_dev two _ n with
-           | divex q r g e => existS _ q _
+           | divex q r g e => existT _ q _
            end).
 unfold two in |- *; auto.
 elim (zerop r); intro e0; [ left | right ].

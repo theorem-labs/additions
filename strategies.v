@@ -35,6 +35,7 @@
    "dicho_strat.v".
 
 *)
+Require Import Compat.
 Require Import Constants.
 
 Inductive strategy : Set :=

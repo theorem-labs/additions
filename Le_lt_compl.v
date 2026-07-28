@@ -33,6 +33,7 @@ Le and Lt of the distribution: ($COQTH/ARITH/[Le,Lt] )
  one,two,three,four declared in the "Constants" module
 *)
 
+Require Import Compat.
 Require Import Arith.
 Require Import Constants.
 

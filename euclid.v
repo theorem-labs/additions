@@ -29,6 +29,7 @@
 *)
 
 
+Require Import Compat.
 Require Import Arith.
 Require Import Constants.
 Require Import Le_lt_compl.

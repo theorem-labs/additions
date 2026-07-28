@@ -34,6 +34,7 @@
 
 
 
+Require Import Compat.
 Require Import Arith.
 Require Import Peano_dec.
 Require Import Constants.

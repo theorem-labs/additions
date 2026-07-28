@@ -32,6 +32,7 @@
 
 *)
 
+Require Import Compat.
 Require Import strategies.
 Require Import Arith.
 Require Import euclid.

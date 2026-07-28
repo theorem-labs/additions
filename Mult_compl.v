@@ -29,6 +29,7 @@
    This file contains some lemmas on multiplication; it is an 
    extension of the module Mult.v *)
 
+Require Import Compat.
 Require Import Arith.
 Require Import Constants.
 Require Import Le_lt_compl.

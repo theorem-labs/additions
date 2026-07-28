@@ -28,6 +28,7 @@
 
 (* Ported to ZArith by P.Letouzey (nov 2001)                                *)
 
+Require Import Compat.
 Require Import monoid.
 Require Import Arith.
 Require Import ZArith.

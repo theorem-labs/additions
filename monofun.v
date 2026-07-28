@@ -27,6 +27,7 @@
 
 (* the monoid of functions from A to A *)
 (***************************************)
+Require Import Compat.
 Require Import monoid.
 
 Section fun_.

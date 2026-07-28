@@ -90,6 +90,7 @@ if the number of digits is odd), we have two words:
 
 *)
 
+Require Import Compat.
 Require Import strategies.
 Require Import Arith.
 Require Import euclid.

@@ -28,6 +28,7 @@
 (* 
    This file describes the implementation of our powering algorithm:
 *)
+Require Import Compat.
 Require Import monoid.
 Require Import Constants.
 

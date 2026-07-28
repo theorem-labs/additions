@@ -31,6 +31,7 @@
 
 *)
 
+Require Import Compat.
 Require Import monoid.
 Require Import machine.
 Require Import Constants.

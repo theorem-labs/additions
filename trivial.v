@@ -25,8 +25,8 @@
 (*    e-mail:  casteran@labri.u-bordeaux.fr                                 *)
 
 (* the trivial monoid *)
+Require Import Compat.
 Require Import monoid.
-Require Import Plus.
 
 Lemma trivial : monoid nat.
 refine (mkmonoid nat 0 plus _ _ _); auto with arith.
